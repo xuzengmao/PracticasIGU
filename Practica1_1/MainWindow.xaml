@@ -1,0 +1,28 @@
+﻿<Window x:Class="Practica1_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica1_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <Window.Background>
+        <ImageBrush ImageSource="2004baikallakeenergy.jpg"/>
+    </Window.Background>
+    <StackPanel Orientation="Horizontal">
+        <StackPanel>
+            <Button Name="BotonInvierte" Content="Invierte" Margin="10" Click="BotonInvierte_Click"/>
+            <Button Name="BotonMayuscula" Content="Mayuscula" Margin="10" Click="BotonMayuscula_Click"/>
+            <Button Name="Rojo" Margin="10" Click="Rojo_Click">
+                <Rectangle Width="20" Height="20" Fill="Red"/>
+            </Button>
+            <Button Name="Verde" Margin="10" Click="Verde_Click">
+                <Rectangle Width="20" Height="20" Fill="Green"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Width="300">
+            <TextBox Name="CajaTexto" Margin="8"/>
+            <Label Name="Etiqueta" Background="LightBlue" Margin="8"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
