@@ -1,0 +1,54 @@
+﻿<Window x:Class="Practica1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica1_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <WrapPanel DockPanel.Dock="Top">
+            <Button Content="Add function" Margin="5"/>
+            <Button Content="Remove function" Margin="5"/>
+        </WrapPanel>
+        <ScrollViewer Name="scroll" DockPanel.Dock="Top" MinHeight="200">
+            <ListView Margin="5">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Visible"/>
+                        <GridViewColumn Header="Color"/>
+                        <GridViewColumn Header="Function"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Minimun value of X: " HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Column="1" Margin="10"/>
+            <Label Content="Minimun value of Y: " Grid.Row="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="10"/>
+            <Label Content="Mark interval for X-axis: " Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="10"/>
+            <Label Content="Maximum value of X: " Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Column="3" Margin="10"/>
+            <Label Content="Maximum value of Y: " Grid.Row="1" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="3" Margin="10"/>
+            <Label Content="Mark interval for Y-axis: " Grid.Row="2" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="2" Grid.Column="3" Margin="10"/>
+            <Label Content="Line width: " Grid.Row="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Slider Grid.Row="3" Grid.Column="1" Margin="10"/>
+        </Grid>
+    </DockPanel>
+</Window>
