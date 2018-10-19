@@ -1,0 +1,7 @@
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\bin\Debug\Practica2_1c.exe.config
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\bin\Debug\Practica2_1c.exe
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\bin\Debug\Practica2_1c.pdb
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\obj\Debug\Practica2_1c.csprojAssemblyReference.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\obj\Debug\Practica2_1c.csproj.CoreCompileInputs.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\obj\Debug\Practica2_1c.exe
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica2_1c\obj\Debug\Practica2_1c.pdb
