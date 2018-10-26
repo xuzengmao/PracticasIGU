@@ -1,0 +1,33 @@
+﻿<Window x:Class="Practica5_2.VentanaConfigurar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica5_2"
+        mc:Ignorable="d"
+        Slider.ValueChanged="Window_ValueChanged"
+        Title="VentanaConfigurar" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="icon/iconRedCircle.png" Height="30"/>
+        <Image Source="icon/iconGreenCircle.png" Grid.Column="1" Height="30"/>
+        <Image Source="icon/iconBlueCircle.png" Grid.Column="2" Height="30"/>
+        <Slider Name="RedSlider" Maximum="255" TickFrequency="5" TickPlacement="Both" Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" Width="30"/>
+        <Slider Name="GreenSlider" Maximum="255" TickFrequency="5" TickPlacement="Both"  Grid.Row="1" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" Width="30"/>
+        <Slider Name="BlueSlider" Maximum="255" TickFrequency="5" TickPlacement="Both" Grid.Row="1" Grid.Column="2" Orientation="Vertical" HorizontalAlignment="Center" Width="30"/>
+        <TextBlock Name="RedValue" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ElementName=RedSlider, Path=Value}"/>
+        <TextBlock Name="GreenValue" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ElementName=GreenSlider, Path=Value}"/>
+        <TextBlock Name="BlueValue" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ElementName=BlueSlider, Path=Value}"/>
+        <Button Name="Quit_Button" Content="Quit" Grid.Row="3" Grid.Column="2" Margin="20" Click="Quit_Button_Click"/>
+    </Grid>
+</Window>
