@@ -13,3 +13,5 @@ C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\Pr
 C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\Practica5_1.csproj.CoreCompileInputs.cache
 C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\Practica5_1.exe
 C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\Practica5_1.pdb
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\CambiaColor.g.cs
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1\obj\Debug\CambiaColor.baml

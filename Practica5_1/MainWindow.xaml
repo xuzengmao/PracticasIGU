@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:Practica5_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Archivo">
+                <MenuItem Header="_Configurar" Click="MenuItem_Click_configurar"/>
+                <MenuItem Header="_Salir" Click="MenuItem_Click_salir"/>
+            </MenuItem>
+        </Menu>
+        <Canvas Name="Lienzo" Background="White"/>
+    </DockPanel>
 </Window>
