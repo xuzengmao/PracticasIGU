@@ -1,0 +1,17 @@
+﻿<Window x:Class="Practica5_1_clase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica5_1_clase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu>
+            <MenuItem Header="_Archivo">
+                <MenuItem Header="_Configurar" Click="MenuItem_Click_Configurar"/>
+                <MenuItem Header="_Salir" Click="MenuItem_Click_Salir"/>
+            </MenuItem>
+        </Menu>
+    </DockPanel>
+</Window>

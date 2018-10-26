@@ -1,0 +1,17 @@
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\bin\Debug\Practica5_1_clase.exe.config
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\bin\Debug\Practica5_1_clase.exe
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\bin\Debug\Practica5_1_clase.pdb
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.csprojAssemblyReference.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\MainWindow.g.cs
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\App.g.cs
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase_MarkupCompile.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase_MarkupCompile.lref
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\MainWindow.baml
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.g.resources
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.Properties.Resources.resources
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.csproj.GenerateResource.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.csproj.CoreCompileInputs.cache
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.exe
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\Practica5_1_clase.pdb
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\VentanaConfigurar.g.cs
+C:\Users\XuzengMao\Desktop\ProyectosGitHub\PracticasIGU\Practica5_1_clase\obj\Debug\VentanaConfigurar.baml
