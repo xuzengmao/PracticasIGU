@@ -13,10 +13,13 @@ namespace Practica5_3
         double x_pos, y_pos;
         double x_des, y_des;
         Shape figura;
+        string Nombre;
+        static int Contador = 0;
 
         public Figura()
         {
             Random rand = new Random();
+            Nombre = String.Format("Figura {0}", Contador++);
             x_pos = rand.Next(300);
             y_pos = rand.Next(300);
             x_des = 1 + rand.Next(30);
@@ -59,6 +62,11 @@ namespace Practica5_3
         public Shape fig
         {
             get { return figura; }
+        }
+
+        public string nombre
+        {
+            get { return Nombre; }
         }
     }
 }

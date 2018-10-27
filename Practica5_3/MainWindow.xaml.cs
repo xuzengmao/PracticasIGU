@@ -37,6 +37,7 @@ namespace Practica5_3
             CDGenerarFigura cd = new CDGenerarFigura();
             cd.Owner = this;
             cd.AñadirNuevaFigura += Cd_AñadirNuevaFigura;
+            cd.Lista.ItemsSource = listaFiguras;
             cd.Show();
         }
 
