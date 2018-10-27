@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Practica5_4"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <TextBox Name="BoxNom" Width="100" Margin="10"/>
+        <TextBox Name="BoxApe" Width="100" Margin="10"/>
+        <Button Content="Añadir" Click="Button_Click"/>
+        <ListView Name="CuadroLista" Margin="10" Height="130">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="NOMBRE" DisplayMemberBinding="{Binding nombre}" Width="120"/>
+                    <GridViewColumn Header="APELLIDO" DisplayMemberBinding="{Binding apellido}" Width="120"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
 </Window>

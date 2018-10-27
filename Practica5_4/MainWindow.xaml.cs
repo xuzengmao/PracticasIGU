@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,19 @@ namespace Practica5_4
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollection<Amigo> coleccionAmigos;
+
         public MainWindow()
         {
             InitializeComponent();
+            coleccionAmigos = new ObservableCollection<Amigo>();
+            CuadroLista.ItemsSource = coleccionAmigos;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Amigo nuevoAmigo = new Amigo(BoxNom.Text, BoxApe.Text);
+            coleccionAmigos.Add(nuevoAmigo);
         }
     }
 }
